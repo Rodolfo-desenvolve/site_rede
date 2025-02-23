@@ -1,0 +1,12 @@
+.foto-top{
+    width: 100%;
+    background-color: #fff;
+    margin-top: -110px;
+    padding: 0 100px;
+    padding-bottom: 200px;
+}
+
+.foto-top .img img{
+    border-radius: 20px;
+    object-fit: cover;
+}

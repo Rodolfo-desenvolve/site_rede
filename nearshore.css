@@ -1,0 +1,91 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    margin-top: -110px;
+    padding: 150px 130px;
+}
+
+.img-background{
+    width: 320px ;
+    height: 320px ;
+    background-color: #078080;
+    border-radius: 50%;
+}
+
+.divisao-vazia{
+    width: 380px;
+    height: 380px;
+}
+
+.flex-1, .flex-2, .text-unico{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-bottom: 20px;
+    color: #141414;
+    padding: 10px;
+}
+
+.flex-2{
+    margin-left: 50px;
+}
+
+.flex-1, .text-unico{
+    margin-right: 100px;
+}
+
+.flex-1 h2, .flex-2 h2, .text-unico h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.flex-1 p, .flex-2 p, .text-unico p{
+    font-size: 18px;
+    color: #9E9E9E;
+    text-align: left;
+}
+
+.img{
+    margin-top: -90px;
+    object-fit: cover;
+}
+
+.text{
+    height: 220px;
+    overflow: hidden;
+}
+
+.text a{
+    display: flex;
+    width: 114.45px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F45D48;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.text a i{
+    margin-left: 5px;
+}
+
+.circulo-botao{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.circulo-botao .circulo{
+    width: 170px;
+    height: 170px;
+    background-color: #F45D48;
+    border-radius: 50%;
+}

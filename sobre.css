@@ -1,0 +1,166 @@
+
+.anos{
+    width: 100vw;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -200px;
+}
+
+.anos .ano h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #078080;
+}
+
+.anos .ano span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #141414;
+}
+
+.servicos {
+    margin-top: -110px;
+}
+
+.content .flex-1 img , .flex-2 img , .text-unico img{
+    border-radius: 20px;
+}
+
+.content .flex-1 .text, .flex-2 .text , .text-unico .text{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 340px;
+    justify-content: center;
+    text-align: left;
+}
+
+.clientes-parceiros{
+    width: 100vw;
+    padding: 100px 150px;
+    background: linear-gradient(#1d1d1b 0%, #141414, #078080);
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+
+hr{
+    width: 2px;
+    height: 70px;
+    background-color: #1d1d1b;
+    border: none;
+}
+
+
+.clientes-parceiros .flex-top{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clientes-parceiros .flex-top .text-clientes h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.clientes-parceiros .flex-top .text-clientes span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.clientes-parceiros .flex-top .imgs-clientes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.clientes-parceiros .flex-top .imgs-clientes .linha-1{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.clientes-parceiros .flex-top .imgs-clientes .linha-1 img{
+    object-fit: cover;
+}
+
+.clientes-parceiros .flex-bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.clientes-parceiros .flex-bottom .text-parceiros h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.clientes-parceiros .flex-bottom .text-parceiros span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.clientes-parceiros .flex-bottom .img-parceiros{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.clientes-parceiros .flex-bottom .img-parceiros .linha-1{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.clientes-parceiros .flex-bottom .img-parceiros .linha-1 img{
+    object-fit: cover;
+}
+
+
+
+
+
+.cards-testemunhos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.cards-testemunhos .card{
+    padding: 10px;
+    gap: 5px;
+    text-align: left;
+}
+
+.cards-testemunhos .card span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #078080;
+}
+
+.cards-testemunhos .card h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #141414;
+    margin-left: -12px;
+}
+
+.cards-testemunhos .card p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #757575;
+    margin-top: -100px;
+}

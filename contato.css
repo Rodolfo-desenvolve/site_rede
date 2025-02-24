@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     height: 505px;
-    width: 100%;
+    width: 100vw;
     background: #078080;
     padding: 100px 150px;
     color: #fff;
     justify-content: center;
     gap: 20px;
+    z-index: 0;
 }
 
 .contato-top h2{
@@ -26,7 +27,7 @@
 .fale-conosco{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     padding: 100px 150px;
     justify-content: center;
     align-items: center;

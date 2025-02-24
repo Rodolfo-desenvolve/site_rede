@@ -1,20 +1,19 @@
 .foto-top{
     width: 100vw;
     background-color: #fff;
-    margin-top: -110px;
     padding: 0 150px;
     padding-bottom: 10px;
-    z-index: 2;
+    place-items: center;
 }
 
 .img img{
     border-radius: 20px;
     object-fit: cover;
-    z-index: 2;
 }
 
 .servicos{
     place-items: center;
+    margin-top: -120px;
 }
 
 .servicos .flex{
@@ -43,8 +42,57 @@
     color: #078080;
 }
 
-
-
 .servicos .flex-1 img, .flex-2 img{
     border-radius: 20px;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 150px 150px;
+    background: linear-gradient(#1d1d1b 0%, #141414, #078080);
+}
+
+.vantagens h2{
+    font-size: 27px;
+    color: #fff;
+    padding: 20px;
+}
+
+.vantagens .cards-vantagens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.vantagens .cards-vantagens .card-top, .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 240px;
+    flex-wrap: wrap;
+}
+
+.vantagens .cards-vantagens .card-top .card, .card-bottom .card{
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.vantagens .cards-vantagens .card-top .card h3, .card-bottom .card h3{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1d1d1b;
+    margin-bottom: 10px;
+}
+
+.vantagens .cards-vantagens .card-top .card span, .card-bottom .card span{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #757575;
 }

@@ -7,6 +7,15 @@
     padding: 150px 130px;
 }
 
+p, span, h2, h3{
+    white-space: nowrap;
+}
+
+.img img{
+    width: 80vw;
+    height: auto;
+}
+
 .img-background{
     width: 320px ;
     height: 320px ;

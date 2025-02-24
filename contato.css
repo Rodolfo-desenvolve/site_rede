@@ -48,6 +48,7 @@
 .fale-conosco .formulario form{
     display: flex;
     flex-direction: column;
+    width: 90vw;
     gap: 10px;
     padding: 20px 100px;
 }
@@ -60,7 +61,6 @@
     color: #9E9E9E;
     padding-left: 20px;
     font-size: 16px;
-
 }
 
 .formulario form #mensagem{
@@ -118,4 +118,43 @@
     background-color: transparent;
     border: none;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .contato-top{
+        padding: 50px 70px ;
+        place-items: center;
+    }
+
+    .contato-top p{
+        font-size: 15px;
+    }
+
+    .fale-conosco{
+        padding: 50px 10px;
+    }
+
+    .fale-conosco .formulario form{
+        width: 90%;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contato-top{
+        padding: 40px 20px ;
+        place-items: center;
+    }
+    .contato-top p{
+        font-size: 13px;
+    }
+
+    .fale-conosco{
+        padding: 30px 10px;
+    }
+
+    .fale-conosco .formulario form{
+        width: 95%;
+        padding: 10px 10px;
+    }
 }

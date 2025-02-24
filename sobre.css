@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -200px;
 }
 
 .anos .ano h2{
@@ -54,7 +53,6 @@ hr{
     border: none;
 }
 
-
 .clientes-parceiros .flex-top{
     display: flex;
     justify-content: space-around;
@@ -97,7 +95,6 @@ hr{
     flex-wrap: wrap;
 }
 
-
 .clientes-parceiros .flex-bottom .text-parceiros h3{
     font-size: 32px;
     font-weight: 700;
@@ -127,10 +124,6 @@ hr{
 .clientes-parceiros .flex-bottom .img-parceiros .linha-1 img{
     object-fit: cover;
 }
-
-
-
-
 
 .cards-testemunhos{
     display: flex;

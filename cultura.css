@@ -9,6 +9,7 @@
 .img img{
     border-radius: 20px;
     object-fit: cover;
+    width: 70vw;
 }
 
 .servicos{
@@ -20,6 +21,7 @@
     display: flex;
     margin-bottom: 20px;
     gap: 20px;
+    flex-wrap: wrap;
     
 }
 
@@ -45,6 +47,65 @@
 .servicos .flex-1 img, .flex-2 img{
     border-radius: 20px;
 }
+
+.tropical{
+    width: 100vw;
+    padding: 100px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+.tropical .tropical-text h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #078080;
+    text-align: center;
+}
+
+.tropical .tropical-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.tropical .tropical-text span{
+    font-size: 14px;
+    color: #757575;
+    margin-left: 150px;
+}
+
+.tropical .imgs-tropical{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.tropical .imgs-tropical .imgs-1{
+    width: 320px;
+    height: 350px;
+}
+.tropical .imgs-tropical .imgs-2{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 400px;
+    bottom: 50px;
+}
+.tropical .imgs-tropical .imgs-3{
+    position: absolute;
+    right: 0;
+}
+.tropical .imgs-tropical .imgs-4{
+    position: absolute;
+    left: 700px;
+    top: 0;
+    
+}
+
+
 
 .vantagens{
     display: flex;
@@ -95,4 +156,29 @@
     font-size: 15px;
     font-weight: 200;
     color: #757575;
+}
+
+@media (max-width: 1346px) {
+    .vantagens{
+        padding-top: 30px;
+    }
+    .card-top {
+        margin-bottom: 120px;
+    }
+    
+    .card-bottom {
+        margin-top: 200px;
+        margin-bottom: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .servicos{
+        padding: 50px 60px;
+    }
+
+    .foto-top {
+    }
 }

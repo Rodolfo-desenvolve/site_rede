@@ -163,10 +163,6 @@ hr{
         padding: 100px 30px;
     }
 
-    .servicos span{
-        width: 90vw;
-    }
-
     .content{
         align-items: center;
     }
@@ -187,7 +183,7 @@ hr{
     }
     
     .content .flex-1 .text p, .flex-2 .text p, .text-unico .text p{
-         font-size: 13px;
+         font-size: 12px;
     }
 
     .clientes-parceiros{
@@ -198,25 +194,6 @@ hr{
         margin-bottom: 50px;
         place-items: center;
         gap: 30px;
-    }
-
-    .clientes-parceiros .flex-top .text-clientes h3
-    {
-        font-size: 27px;
-    }
-
-    .clientes-parceiros .flex-top .text-clientes span
-    {
-        font-size: 13px;
-    }
-    .clientes-parceiros .flex-bottom .text-parceiros h3
-    {
-        font-size: 27px;
-    }
-
-    .clientes-parceiros .flex-bottom .text-parceiros span
-    {
-        font-size: 13px;
     }
 
     .flex-bottom{
@@ -231,7 +208,7 @@ hr{
     }
 
     .servicos span{
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .servicos h2{

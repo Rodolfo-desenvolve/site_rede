@@ -7,7 +7,6 @@
     align-items: center;
     overflow: hidden;
     border-radius: 20px;
-    flex-basis: 100%;
     flex-wrap: wrap;
     width: 80vw;
 }
@@ -55,5 +54,154 @@ p, span, h2, h3{
     border-radius: 30px;
     padding: 10px 50px;
     border: 1px solid #141414;
+
+}
+
+@media (max-width: 1024px){
+
+    .servicos{
+        padding: 100px 10px;
+    }
+
+
+    .content .flex-1 img, .flex-2 img, .text-unico img{
+        width: 250px;
+        height: 220px;
+        margin-right: 150px;
+        align-items: center;
+   }
+
+   .img-background{
+       width: 250px;
+       height: 250px;
+       align-items: center;
+   }
+
+   .content .flex-1 .text h2, .flex-2 .text h2, .text-unico .text h2{
+    font-size: 25px;
+    }
+
+    .content .flex-1 .text p, .flex-2 .text p, .text-unico .text p{
+    font-size: 12px;
+    }
+
+
+}
+
+@media (max-width: 740px){
+    .servicos{
+        padding: 100px 30px;
+    }
+
+    .content{
+        align-items: center;
+    }
+
+    .content .flex-1 img, .flex-2 img, .text-unico img{
+         width: 250px;
+         height: 220px;
+         margin-right: 150px;
+         align-items: center;
+    }
+
+    .img-background{
+        width: 250px;
+        height: 250px;
+        margin-right: 80px;
+        align-items: center;
+    }
+
+    .content .flex-1, .flex-2, .text-unico{
+        margin-right: -80px;
+    }
+    
+
+    .content .flex-1 .text h2, .flex-2 .text h2, .text-unico .text h2{
+         font-size: 30px;
+    }
+    
+    .content .flex-1 .text p, .flex-2 .text p, .text-unico .text p{
+         font-size: 13px;
+    }
+
+    .clientes-parceiros{
+        padding: 100px 40px;
+    }
+
+    .flex-top{
+        margin-bottom: 50px;
+        place-items: center;
+        gap: 30px;
+    }
+
+    .clientes-parceiros .flex-top .text-clientes h3
+    {
+        font-size: 27px;
+    }
+
+    .clientes-parceiros .flex-top .text-clientes span
+    {
+        font-size: 13px;
+    }
+    .clientes-parceiros .flex-bottom .text-parceiros h3
+    {
+        font-size: 27px;
+    }
+
+    .clientes-parceiros .flex-bottom .text-parceiros span
+    {
+        font-size: 13px;
+    }
+
+    .flex-bottom{
+        place-items: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 550px){
+    .content .flex-1 .text h2, .flex-2 .text h2, .text-unico .text h2{
+        font-size: 22px;
+   }
+   
+   .content .flex-1 .text p, .flex-2 .text p, .text-unico .text p{
+        font-size: 12px;
+   }
+}
+
+@media (max-width: 530px){
+    .servicos{
+        padding: 100px 0;
+    }
+
+    .servicos span{
+        font-size: 10px;
+        text-align: start;
+    }
+
+    .servicos h2{
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    hr{
+        display: none;
+    }
+
+    .servicos span{
+        font-size: 5px;
+    }
+
+    .novidades{
+        padding: 100px 30px;
+    }
+
+    .novidades span{
+        font-size: 8px;
+    }
 
 }

@@ -10,6 +10,7 @@
     border-radius: 20px;
     object-fit: cover;
     width: 70vw;
+    height: auto;
 }
 
 .servicos{
@@ -44,7 +45,15 @@
     color: #078080;
 }
 
+.servicos .flex-1 .img-top{
+    width: 30vw;
+    height: auto;
+    border-radius: 20px;
+}
+
 .servicos .flex-1 img, .flex-2 img{
+    width: 50vw;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -83,29 +92,35 @@
     display: flex;
     justify-content: center;
 }
+
 .tropical .imgs-tropical .imgs-1{
-    width: 320px;
-    height: 350px;
+    width: 20vw;
+    height: auto;
 }
+
 .tropical .imgs-tropical .imgs-2{
     position: absolute;
-    width: 300px;
-    height: 250px;
+    width: 20vw;
+    height: auto;
     left: 400px;
-    bottom: 50px;
+    bottom: 150px;
 }
+
 .tropical .imgs-tropical .imgs-3{
     position: absolute;
+    width: 10vw;
+    height: auto;
     right: 0;
 }
+
 .tropical .imgs-tropical .imgs-4{
     position: absolute;
+    width: 10vw;
+    height: auto;
     left: 700px;
     top: 0;
     
 }
-
-
 
 .vantagens{
     display: flex;
@@ -162,6 +177,7 @@
     .vantagens{
         padding-top: 30px;
     }
+
     .card-top {
         margin-bottom: 120px;
     }
@@ -172,13 +188,133 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .vantagens{
+        padding: 100px 100px;
+    }
+}
+
 @media (max-width: 768px) {
 
 
     .servicos{
-        padding: 50px 60px;
+        padding: 50px 40px;
     }
 
-    .foto-top {
+    .tropical{
+        padding: 100px 50px;
+    }
+
+    .vantagens{
+        padding: 150px 50px;
+    }
+
+    .card-top {
+        margin-bottom: 150px;
+    }
+    
+    .card-bottom {
+        margin-top: 200px;
+        margin-bottom: 360px;
+    }
+
+    .tropical .imgs-tropical .imgs-2{
+        top: 220px;
+    }
+
+    .tropical .imgs-tropical .imgs-4{
+        left: 150px;
+    }
+
+    .vantagens .cards-vantagens .card-top .card h3, .card-bottom .card h3{
+        font-size: 16px;
+    }
+
+    .vantagens .cards-vantagens .card-top .card span, .card-bottom .card span{
+        font-size: 12px;
     }
 }
+
+@media (max-width: 530px){
+
+    .tropical{
+        padding: 100px 20px;
+    }
+
+    .vantagens{
+        padding: 150px 20px;
+    }
+
+    .tropical{
+        padding: 200px 50px;
+    }
+
+    .card-top {
+        margin-bottom: 150px;
+    }
+    
+    .card-bottom {
+        margin-top: 250px;
+        margin-bottom: 360px;
+    }
+
+    .tropical .imgs-tropical .imgs-3{
+        top: 150px;
+    }
+
+    .tropical .imgs-tropical .imgs-2{
+        top: 350px;
+        left: 350px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .tropical{
+        padding: 70px 10px;
+    }
+
+    .vantagens{
+        padding: 150px 0px;
+    }
+
+    .tropical .imgs-tropical .imgs-2{
+        top: 200px;
+        left: 300px;
+    }
+
+    .vantagens .cards-vantagens .card-top .card, .card-bottom .card{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .tropical .tropical-text p{
+        font-size: 13px;
+    }
+
+    .tropical .tropical-text span{
+        font-size: 13px;
+    }
+
+    .tropical .imgs-tropical .imgs-3{
+        display: none;
+    }
+
+    .tropical .imgs-tropical .imgs-2{
+        top: 200px;
+        left: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .tropical .tropical-text p{
+        font-size: 12px;
+    }
+
+    .tropical .tropical-text span{
+        font-size: 12px;
+        margin-left: 100px;
+    }
+}
+

@@ -297,6 +297,9 @@
         font-size: 13px;
     }
 
+    .tropical .imgs-tropical .imgs-4{
+        display: none;
+    }
     .tropical .imgs-tropical .imgs-3{
         display: none;
     }
@@ -304,6 +307,7 @@
     .tropical .imgs-tropical .imgs-2{
         top: 200px;
         left: 250px;
+        display: none;
     }
 }
 
